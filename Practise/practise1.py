@@ -52,3 +52,151 @@ elif age > 10 and age <= 20:
 else:
     print(f"Go to regular beacause your age is {age}")  """
 
+# f string example
+""" name = input("Type your name here \n")
+print(f"my name is {name}") """
+
+# calculator
+""" num1 = int(input("Type your num1 here \n"))
+num2 = int(input("Type your num2 here \n"))
+operator = input("please type your operation + , - , * , % \n")
+
+if operator == "+":
+    sum = num1 + num2
+    print(sum)
+elif operator == "-":
+    substract = num1 - num2
+    print(substract)
+elif operator == "*":
+    product = num1 * num2
+    print(product)
+elif operator == "%":
+    quotient == num1 % num2
+    print(quotient) """
+
+# example list
+
+""" animals = ["cat","bat","rat","dog"]
+
+
+animals.append("example")
+print(animals)
+animals.remove("bat")
+print(animals) """
+
+ # Nested List with index
+"""flowers = ["rose","Jasmine","lilly"]
+food = ["dosa","idly","upma"]
+new_list = [flowers,food]
+print(new_list[1][2]) """
+
+
+# for loop
+""" flowers = ["rose","Jasmine","lilly"]
+
+for i in flowers:
+    for x in i:
+        print(x)
+    print(i) """
+
+
+#for loop example -- print each fruit in fruit list
+
+""" fruits = ["orange","papaya","pineapple"]
+for i in fruits:
+    print(i) """
+
+# for loop -- loop through letters in the word
+""" 
+for x in "papaya":
+    print(x) """
+
+# forloop --break statement--if print statement is given first before the condition it will take the given break value
+
+""" fruits = ["orange","papaya","pineapple"]
+for i in fruits:
+    print(i)
+    if i == "papaya":
+      break
+"""
+
+# forloop-- break statement--if condition is given first and then break statement it will end before the break value
+
+""" fruits = ["orange","papaya","pineapple"]
+for i in fruits:
+    if i == "papaya":
+       break
+    print(i) """
+
+# forloop --continue -- it will break the loop of given iteration and continue with the next
+
+""" fruits = ["orange","papaya","pineapple"]
+for i in fruits:
+    if i == "papaya":
+       continue
+    print(i)
+ """
+# Nested loops -- 
+
+""" wages = ["test","best","worst"]
+matches = ["cricket","football"]
+for i in wages:
+    for x in matches:
+        for y in x:
+            print(y)
+        print(x)
+print(i) """
+
+# Nested loops example ---
+
+""" 
+adj = ["green", "leafy", "juicy"]
+
+vegetables = ["spinach", "kale", "pumpkin"]
+
+for x in adj:
+   for y in vegetables:
+        for z in y:
+            print(z)
+        print(x,y)
+    """
+
+# while loop --- star format
+
+""" n = int(input("Type your number here \n"))
+counter = 0
+while counter < n:
+    print("* " * n)
+    counter = counter + 1
+ """
+
+""" 
+i = 1
+while i < 6:
+    print(i)
+    i += 1 """
+
+# while loop -- break statement
+""" i = 1
+while i < 6:
+    print(i)
+    if (i == 3):
+        break
+    i += 1 """
+
+# While loop -- continue statement
+""" i = 0
+while i < 6:
+    i += 1
+    if (i == 3):
+        continue
+    print(i) """
+
+# while loop using --- Else statement
+""" i = 1
+while i < 6:
+    print(i)
+    i += 1
+else:
+    print("i is no longer less than 6") """
+
