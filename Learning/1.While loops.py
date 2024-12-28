@@ -17,13 +17,12 @@ while age < 0:
 """
 
 ## Food Example ___ (using "not true" here)
-
-""" food = input("Enter your favourite food (q to quit): ")
+food = input("Enter your favourite food (q to quit): ")
 while not food == "q":
     print(f"your favourite is {food}")
     food = input("Enter your another favourite food (q to quit): ")
 print("Bye")
- """
+ 
 
 ## Number Example --- using "or operator "
 
