@@ -200,3 +200,36 @@ while i < 6:
 else:
     print("i is no longer less than 6") """
 
+
+
+# Dictionary
+
+""" fruits = {
+    "student1": "eliyaz",
+    "student2": "gouisya",
+    "student3": "arshad"    
+}
+
+for value in fruits.values():
+    print(value) """
+
+
+
+fruits = ["apple","melom","grapes"]
+
+new_list = []
+
+score = 0
+for fruit in fruits:
+    new_list.append(fruit)
+    print(fruit)
+    score +=  1
+
+print(new_list)
+print(score)
+
+
+
+
+
+

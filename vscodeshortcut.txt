@@ -1,3 +1,12 @@
 multi comment - shift + alt + a
 single comment - shift + #
+single comment - shift + /
+
+
+code select - shift + arrows
+move cursor in between - ctrl + arrows
+move to starting of code - ctrl + home
+move to end of code - ctrl + end
 double quotes adding - shift + ""
+jump to new line - ctrl + Enter
+move current code - alt + arrows

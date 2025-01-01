@@ -1,0 +1,30 @@
+animals = ["cat", "dog","rat","fox"]
+""" animals.append("zebra")
+print(animals)
+ """
+
+#Adding list in list
+flowers = ["Rose","Jasmine","Lilly"]
+
+""" animals.append(flowers)
+print(animals)
+ """
+
+# using for loop
+""" new_list = []
+for items in flowers:
+    new_list.append(items)
+    print(items)
+print(new_list) """
+
+#changing items in list
+""" flowers[1] = "marigold"
+print(flowers)
+ """
+ ## Dictionaries:
+
+biodata= {"name":"gousiya",
+           "age":"26",
+           "education":"degree",
+           "pofession":"it"}
+print(biodata["age"])
