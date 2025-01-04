@@ -215,7 +215,7 @@ for value in fruits.values():
 
 
 
-fruits = ["apple","melom","grapes"]
+""" fruits = ["apple","melom","grapes"]
 
 new_list = []
 
@@ -228,8 +228,12 @@ for fruit in fruits:
 print(new_list)
 print(score)
 
+ """
 
 
 
 
+import random
 
+ans = random.randint(1,100)
+print(ans)

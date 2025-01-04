@@ -1,7 +1,7 @@
 multi comment - shift + alt + a
 single comment - shift + #
 single comment - shift + /
-
+Indentation to code - ctrl + ]
 
 code select - shift + arrows
 move cursor in between - ctrl + arrows

@@ -4,14 +4,15 @@ menu = {"Biryani": 300,
         "kebab"  : 250,
         "dessert": 280,
         "softdrink": 80,
-        "mandi": 450}
+        "mandi": 450,
+        "icecream":120}
 
 cart = []
 total = 0
 
 print("-------MENU------")
 for key, value in menu.items():
-   print(f"{key:10}:{value:.2f}")
+   print(f"{key:20}:{value:.2f}")
 print("---------------------")
 
 while True:
@@ -23,10 +24,8 @@ while True:
 
 
 for food in cart:
-   total = total + menu.get(food)
-   print(food, end=" ")
-print()
-print(f"total is: ${total: .2f}")
+   total  +=  menu.get(food)
+print(f"selected food is {cart} total is: ${total: .2f}")
       
 
 
