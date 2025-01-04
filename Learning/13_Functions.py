@@ -5,7 +5,7 @@
 # 2. Keyword Parameters
 # 3. Default Parameters
 # 4. Variable-length Parameters
-
+## NOTE: always positional parameters(*args) comes first then (**kwargs)
 ## POSITIONAL ARGUMENTS: examples
 #Happy Birthday song
 # in the below ex (name, age) are parameters 
@@ -104,5 +104,42 @@ print(phone_num)
 
 print(multiply(2,3)) """
 
+""" def display_name(*args):
+    for arg in args:
+        print(arg, end =" ")
+display_name("Ms","Selena","Gomez")
+ """
+
+# ** Kwargs = allows to pass multiple keyword arguments
+# unpacking operator
+
+""" def adress(**kwargs):
+    for value in kwargs.values():
+        print(value)
+
+adress(state = "TG",
+       country = "India") """
 
 
+""" def shipping_detail(*args,**kwargs):
+    for arg in args:
+        print(arg)
+    for kwarg in kwargs.values():
+        print(kwarg)
+
+
+shipping_detail("eliyaz","30",
+                school = "spg",colleg = "mrec")
+ """
+
+def fill_details(*args,**kwargs):
+    for arg in args:
+        print(arg)
+
+    for kwarg in kwargs.values():
+        print(kwarg)
+
+fill_details("Gousiya","26","BSC",
+             state = "AP",
+             city = "ATP",
+             pin = "515110")
