@@ -72,7 +72,7 @@ while game_continuation:
 
 ## Rock, paper, scissor game:
 
-import random
+""" import random
 options = ("Rock","paper","scissor")
 computer_choice = random.choice(options)
 game_continue = True
@@ -91,8 +91,11 @@ while game_continue:
     else:
         print("you loose")
         score += 1
-        if score >= 5:
-            game_continue = False
+        if score > 5:
+            game_continue = False """
+
+
+
 
 
 

@@ -131,7 +131,7 @@ adress(state = "TG",
 shipping_detail("eliyaz","30",
                 school = "spg",colleg = "mrec")
  """
-
+""" 
 def fill_details(*args,**kwargs):
     for arg in args:
         print(arg)
@@ -142,4 +142,4 @@ def fill_details(*args,**kwargs):
 fill_details("Gousiya","26","BSC",
              state = "AP",
              city = "ATP",
-             pin = "515110")
+             pin = "515110") """

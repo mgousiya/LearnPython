@@ -70,7 +70,7 @@ print(is_weekend("monday")) """
 # using OR statement:
 
 
-def is_weekend(day):
+""" def is_weekend(day):
     match day:
         case "Saturday" | "Sunday":
             return True
@@ -78,4 +78,4 @@ def is_weekend(day):
             return False
         case _:
             return False
-print(is_weekend("Monday"))
+print(is_weekend("Monday")) """

@@ -44,6 +44,6 @@ print(odd_num) """
 
 # grades example:
 
-grades = [85, 74, 35, 48, 62, 57]
+""" grades = [85, 74, 35, 48, 62, 57]
 passing_grades =[grade for grade in grades if grade >= 60]
-print(passing_grades)
+print(passing_grades) """
