@@ -31,12 +31,67 @@ print(f1,f2,f3,f4) """
 biodata = {"name":"gousiya",
            "rollno":"22"}
         
-education = {"education":"BSC",
-             "group":"CSC"}
+""" education = {"education":"BSC",
+             "group":"CSC"} """
 
 """ new_biodata = {"a":biodata["name"],"b":education["group"]}
 print(new_biodata) """
 
-for key,value in biodata.items():
-    print(f"{key},{value}")
+""" for key,value in biodata.items():
+    print(f"{key},{value}") """
     
+## Slot machine
+
+# Python slot machine
+import random
+
+def spin_row():
+    Symbols = ["🍒", "🍉", "🍋", "🔔", "⭐"]
+    return [random.choice(Symbols) for _ in range(3)]
+
+def print_row():
+    pass
+
+def get_payout():
+    pass
+
+def main():
+    balance = 100
+
+    print("***********************")
+    print("Welcome to Python slots")
+    print("Symbols : 🍒 🍉🍋🔔⭐")
+    print("***********************")
+
+    while balance > 0:
+        print(f"current balance is ${balance}")
+
+        bet = input("Please enter your bet amount: ")
+
+        if not bet.isdigit():
+            print("Please enter a valid number")
+            continue
+
+        bet = int(bet)
+
+        if bet > balance:
+            print("Insufficient Funds")
+            continue
+        if bet <= 0:
+            print("Bet should be greater than 0")
+            continue 
+
+        balance =- bet
+
+        row = spin_row
+        print(row)
+
+
+
+
+
+
+
+
+if __name__ == "__main__":
+    main()

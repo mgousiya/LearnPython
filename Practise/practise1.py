@@ -233,7 +233,7 @@ print(score)
 
 
 
-import random
+""" import random
 
 ans = random.randint(1,100)
-print(ans)
+print(ans) """
