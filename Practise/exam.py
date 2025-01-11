@@ -41,7 +41,7 @@ print(new_biodata) """
     print(f"{key},{value}") """
     
 ## Slot machine
-
+""" 
 # Python slot machine
 import random
 
@@ -84,7 +84,7 @@ def main():
         balance =- bet
 
         row = spin_row
-        print(row)
+        print(row) """
 
 
 
@@ -92,6 +92,56 @@ def main():
 
 
 
-
+""" 
 if __name__ == "__main__":
-    main()
+    main() """
+
+
+""" animals = ["cat","dog","rat"]
+new_animals = [] """
+
+""" class Students:
+    def __init__(self,name,age,grade):
+        self.name = name
+        self.age = age
+        self.grade = grade
+
+    def lecture():
+        print("The children are playing")
+
+children = Students("Tahir",14,"A")
+
+print(children.name)
+
+Students.lecture()
+ """
+
+#Example:
+
+""" class Fruits:
+    def __init__(self,name):
+        self.name = name
+
+    def healthy(self):
+        print(f"{self.name} is a healthy ")
+
+    def immune(self):
+        print(f"{self.name} is a healthy ")
+
+    def habit(self):
+        print(f"Consuming {self.name} is good for body")
+
+class Vegetables(Fruits):
+    pass
+
+class Dryfruits(Fruits):
+    pass
+
+sample = Fruits("Orange")
+print(sample.name)
+
+vegetable = Vegetables("Tomato")
+dryfruit = Dryfruits("Almond")
+
+vegetable.immune()
+dryfruit.immune() """
