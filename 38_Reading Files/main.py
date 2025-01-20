@@ -12,3 +12,6 @@ try:
 except FileNotFoundError:
     print("That file was not found")
 
+except PermissionError:
+    print("You do not have permission to read that file")
+
