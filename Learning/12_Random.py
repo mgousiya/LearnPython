@@ -14,7 +14,7 @@ print(number)
 """ number = random.random()
 print(number) """
 
-# choice method is used to pick the random options
+# choice method is used to pick the random options(string)
 
 """ options =("rock","paper","scissors") 
 option = random.choice(options)
